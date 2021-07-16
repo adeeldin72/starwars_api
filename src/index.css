@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-20-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  overflow: auto;
+  /* flex-wrap: wrap; */
+}
+
+li {
+  padding: 50px;
+  list-style: none;
+  color: white;
+}
+
+li div {
+  background-color: #393E46;
+  border: 4px yellow solid;
+  text-align: center;
+  padding: 25px;
+  min-width: 200px;
+
+}
+
+.title {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.loadingImg {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.personInfoContainer {
+  border: 4px yellow solid;
+  background-color: #393E46;
+  color: white;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 25px;
+}
