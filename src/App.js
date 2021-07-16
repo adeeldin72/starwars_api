@@ -38,7 +38,7 @@ class App extends Component {
   componentDidMount() {
     getCharacters().then(val => {
       this.setState({ charactersList: val.results, isLoading: false });
-      console.log(val.results);
+
     });
 
 
